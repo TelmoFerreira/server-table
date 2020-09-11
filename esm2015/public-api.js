@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of server-table
+ */
+export * from './lib/server-table.service';
+export * from './lib/server-table.component';
+export * from './lib/server-table.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3NlcnZlci10YWJsZS8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLDRCQUE0QixDQUFDO0FBQzNDLGNBQWMsOEJBQThCLENBQUM7QUFDN0MsY0FBYywyQkFBMkIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygc2VydmVyLXRhYmxlXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvc2VydmVyLXRhYmxlLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvc2VydmVyLXRhYmxlLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9zZXJ2ZXItdGFibGUubW9kdWxlJztcbiJdfQ==

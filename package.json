@@ -1,0 +1,19 @@
+{
+  "name": "server-table",
+  "version": "1.0.8",
+  "peerDependencies": {
+    "@angular/common": "^9.0.3",
+    "@angular/core": "^9.0.3",
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/server-table.umd.js",
+  "module": "fesm5/server-table.js",
+  "es2015": "fesm2015/server-table.js",
+  "esm5": "esm5/server-table.js",
+  "esm2015": "esm2015/server-table.js",
+  "fesm5": "fesm5/server-table.js",
+  "fesm2015": "fesm2015/server-table.js",
+  "typings": "server-table.d.ts",
+  "metadata": "server-table.metadata.json",
+  "sideEffects": false
+}

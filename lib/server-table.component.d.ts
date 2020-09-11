@@ -1,0 +1,36 @@
+import { Renderer2, ElementRef } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Overlay } from '@angular/cdk/overlay';
+export declare class ServerTableComponent {
+    private httpClient;
+    overlay: Overlay;
+    private renderer;
+    settings: any;
+    middleCol: ElementRef;
+    columns: any[];
+    actions: any[];
+    service: string;
+    dataToserver: {};
+    mainData: any[];
+    paginacao: any[];
+    currentPage: number;
+    pageSize: number;
+    collectionSize: number;
+    filtro: {};
+    beforeRender: any;
+    paginationCfg: {};
+    searchInput: string;
+    constructor(httpClient: HttpClient, overlay: Overlay, renderer: Renderer2);
+    onPageSizeChange(ev: any): void;
+    keyupDelay: any;
+    onTypeSearchInput(): void;
+    getData(): void;
+    applyChangesBeforeRender(data: any): any;
+    changeColumnOrder(i: any): void;
+    ngOnChanges(changes: any): void;
+    onPaginationClick(pag: any): void;
+    paginator(): any[];
+    countDisabled: number;
+    onClickButtonOpcoes(action: any, data: any, action2: any): void;
+    ngOnInit(): void;
+}
